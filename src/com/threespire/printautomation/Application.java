@@ -6,22 +6,6 @@ import java.util.TimerTask;
 
 public class Application {
 
-	/*
-	 * public static void main(String[] args) { //new
-	 * PrintController().printOrder(true, "101");
-	 * 
-	 * Timer timer = new Timer(); TimerTask task = new TimerTask() {
-	 * 
-	 * @Override public void run() { myMethod(); } };
-	 * 
-	 * timer.schedule(task, 0);
-	 * 
-	 * }
-	 * 
-	 * public static void myMethod(){ System.out.println("Time: "+ new Date());
-	 * }
-	 */
-
 	long delay = 10 * 1000; // delay in milliseconds
 	LoopTask task = new LoopTask();
 	Timer timer = new Timer("TaskName");
